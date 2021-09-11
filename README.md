@@ -1,38 +1,44 @@
 # Official Documentation of WhiteBIT API
 
-## Public API
+## WS
 
 [Public WebSocket API](./Public/websocket.md)
 
-[Public API V1 Documentation](./Public/http-v1.md) - General endpoints
-
-[Public API V2 Documentation](./Public/http-v2.md) - Endpoints for cmc
-
-[Public API V4 Documentation](./Public/http-v4.md) - Additional endpoints
+[Private WebSocket API](./Private/websocket.md)
 
 ___
 
-## Private API
+## HTTP - Public endpoints
 
-[Private WebSocket API](./Private/websocket.md)
+[Public API V1 Documentation](./Public/http-v1.md) - General endpoints
 
-[Private API Authentication Documentation](./Private/http-auth.md) - Documentation for making private Auth requests on WhiteBIT
+[Public API V2 Documentation](./Public/http-v2.md) - General endpoints with some additional data and breaking changes to v1 + new endpoints (fees, asset status list, orderbook).
 
-[Private API V1 Documentation Trade keys](./Private/http-v1.md) - Documentations for making private trading requests
+[Public API V4 Documentation](./Public/http-v4.md) - General endpoints with some additional data and breaking changes to v1, v2 + new endpoints (server time, server status).
 
-[Private API V4 Documentation Trade keys](./Private/http-trade-v4.md) - Documentations for making private trading requests
+___
 
-[Private API V4 Documentation Deposit/Withdraw keys](./Private/http-main-v4.md) - Documentations for making private trading & deposit/withdraw requests
+## HTTP - Private endpoints
+
+[Private API Authentication Documentation](./Private/http-auth.md) - How to use requests that require authentication on WhiteBIT (errors explained)
+
+[Private API V1 Documentation - Trade balance](./Private/http-v1.md) - Documentations for making private trading requests
+
+[Private API V4 Documentation - Trade balance](./Private/http-trade-v4.md) - Documentations for making private trading requests (check this if V1 endpoints doesn't fit your needs)
+
+[Private API V4 Documentation - Main balance](./Private/http-main-v4.md) - Documentations for making private trading & deposit/withdraw requests
+
+
 
 ---
 
-## Web Hooks
+## HTTP - Webhooks 
 
-[Documentation for WebHooks](./WebHook/web-hook.md) - Documentations for processing web-hooks
+[Private Webhooks Documentation - Main balance](./WebHook/web-hook.md) - Documentations for processing webhooks
 
 ---
 
-## Info HTTP
+## HTTP - General info
 
 1. WhiteBIT API supports `private` and `public` methods.
 2. Available API versions: `V1`, `V2`, `V4`.
@@ -40,12 +46,14 @@ ___
     1. Public endpoints are cached. You can find specific cache refresh interval for each particular request in API documentation.
     2. Use HTTP method `GET` method when making a request.
     3. Use `query string` if you need to send additional data.
-4. Using **Private endpoints**:
+4. Using **Private endpoints** - full guide [Private API Authentication Documentation](./Private/http-auth.md):
     1. To make private API calls:
-        1. Go to your account on whitebit.com.
+        1. Go to your account on whitebit.com and navigate to account settings.
         2. Click on the API keys tab.
         3. Select the appropriate configuration tab for your API keys. Different API keys allow access to different API calls.
-        4. Generate API keys and toggle the activation switcher to "Activated".
+        4. Generate an API key.
+        5. Enable IP restrictions by specifying up to 5 trusted IPs *(optional, **recommended**)*
+        6. Enable Endpoint access restrictions. Select only those endpoints, that you are going to use and click "Apply" button.
     2. Auth request should be using `POST` method and should include:
         1. Body data - **JSON** that includes:
             1. **'request'** - a request path without the domain name. Example: `'/api/v4/trade-account/balance'`.
