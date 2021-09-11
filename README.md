@@ -4,7 +4,11 @@ ___
 
 ## WS
 
+### `Public WS`
+
 [Public WebSocket API](./Public/websocket.md)
+
+### `Private WS`
 
 [Private WebSocket API](./Private/websocket.md)
 
@@ -12,7 +16,7 @@ ___
 
 ## HTTP 
 
-### `Public` endpoints
+### `Public endpoints`
 
 [Public API V1 Documentation](./Public/http-v1.md) - General endpoints
 
@@ -20,7 +24,7 @@ ___
 
 [Public API V4 Documentation](./Public/http-v4.md) - General endpoints with some additional data and breaking changes to v1, v2 + new endpoints (server time, server status).
 
-### `Private` endpoints
+### `Private endpoints`
 
 [Private API Authentication Documentation](./Private/http-auth.md) - How to use requests that require authentication on WhiteBIT (errors explained)
 
@@ -36,7 +40,7 @@ ___
 
 ---
 
-### General info
+### `General info`
 
 1. WhiteBIT API supports `private` and `public` endpoints.
 2. Available API versions: `V1`, `V2`, `V4`.
