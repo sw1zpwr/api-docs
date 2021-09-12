@@ -1,16 +1,21 @@
 # Official Documentation of WhiteBIT API
 
+### Latest updates:
+- minor updates *TBD*
+- added webhook response examples *Jun 17, 2021*
+- added buy stock market order *Jun 14, 2021*
+
 ___
 
 ## WS
 
 ### `Public WS`
 
-[Public WebSocket API](./Public/websocket.md)
+[Public WebSocket API](./Public/websocket.md) - General methods
 
 ### `Private WS`
 
-[Private WebSocket API](./Private/websocket.md)
+[Private WebSocket API](./Private/websocket.md) - Authentication + private methods (trade balance, orders, deals methods)
 
 ___
 
