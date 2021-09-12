@@ -308,7 +308,7 @@ limit | int | **No** | Limit of results. Default: 50 Example: 100
 ```json5
 {
   "success": true,
-  "message": "",
+  "message": null,
   "result": [
     {
       "id": 156720314,              // Deal id
