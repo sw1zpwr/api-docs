@@ -1,4 +1,4 @@
-# Official Documentation of WhiteBIT API
+# **Official Documentation of WhiteBIT API**
 
 ### Latest updates:
 - minor updates *TBD*
@@ -7,7 +7,7 @@
 
 ___
 
-## WS
+## **WS**
 
 ### `Public WS`
 
@@ -19,7 +19,7 @@ ___
 
 ___
 
-## HTTP 
+## **HTTP**
 
 ### `Public endpoints`
 
