@@ -33,15 +33,15 @@ ___
 
 [Private API Authentication Documentation](./Private/http-auth.md) - How to use requests that require authentication on WhiteBIT.
 
-[Private API V1 Documentation - Trade balance](./Private/http-v1.md) - Documentations for making private trading requests
+[Private API V1 Documentation - Trade balance](./Private/http-v1.md) - Documentation for making private trading requests
 
-[Private API V4 Documentation - Trade balance](./Private/http-trade-v4.md) - Documentations for making private trading requests extended and revised version
+[Private API V4 Documentation - Trade balance](./Private/http-trade-v4.md) - Additional endpoints.
 
-[Private API V4 Documentation - Main balance](./Private/http-main-v4.md) - Documentations for making private main balance & deposit/withdraw requests
+[Private API V4 Documentation - Main balance](./Private/http-main-v4.md) - Main balance & deposit/withdraw endpoints.
 
 ### `Webhooks`
 
-[Private Webhooks Documentation - Main balance](./WebHook/web-hook.md) - Documentations for processing webhooks
+[Private Webhooks Documentation - Main balance](./WebHook/web-hook.md) - Documentation for processing webhooks
 
 ---
 
