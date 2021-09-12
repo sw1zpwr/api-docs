@@ -23,21 +23,21 @@ ___
 
 ### `Public endpoints`
 
-[Public API V1 Documentation](./Public/http-v1.md) - General endpoints
+[Public API V1 Documentation](./Public/http-v1.md) - General endpoints.
 
-[Public API V2 Documentation](./Public/http-v2.md) - General endpoints with some additional data and breaking changes to v1 + new endpoints (fees, asset status list, orderbook).
+[Public API V2 Documentation](./Public/http-v2.md) - Modified general endpoints + new endpoints.
 
-[Public API V4 Documentation](./Public/http-v4.md) - General endpoints with some additional data and breaking changes to v1, v2 + new endpoints (server time, server status).
+[Public API V4 Documentation](./Public/http-v4.md) - Modified general endpoints + new endpoints.
 
 ### `Private endpoints`
 
-[Private API Authentication Documentation](./Private/http-auth.md) - How to use requests that require authentication on WhiteBIT (errors explained)
+[Private API Authentication Documentation](./Private/http-auth.md) - How to use requests that require authentication on WhiteBIT.
 
 [Private API V1 Documentation - Trade balance](./Private/http-v1.md) - Documentations for making private trading requests
 
-[Private API V4 Documentation - Trade balance](./Private/http-trade-v4.md) - Documentations for making private trading requests (check this if V1 endpoints doesn't fit your needs)
+[Private API V4 Documentation - Trade balance](./Private/http-trade-v4.md) - Documentations for making private trading requests extended and revised version
 
-[Private API V4 Documentation - Main balance](./Private/http-main-v4.md) - Documentations for making private trading & deposit/withdraw requests
+[Private API V4 Documentation - Main balance](./Private/http-main-v4.md) - Documentations for making private main balance & deposit/withdraw requests
 
 ### `Webhooks`
 
