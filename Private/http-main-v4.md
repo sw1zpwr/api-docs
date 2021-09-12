@@ -30,6 +30,7 @@ ___
 ```json5
 {
     "code": 0,
+    "message": "MESSAGE",
     "errors": {
         "PARAM1": [
             "MESSAGE"
@@ -37,8 +38,7 @@ ___
         "PARAM2": [
             "MESSAGE"
         ]
-    },
-    "message": "MESSAGE"
+    }
 }
 ```
 ___
