@@ -1,7 +1,7 @@
 # Official Documentation of WhiteBIT API
 
 ### Latest releases:
-- *TBD* minor updates
+- *Sep 13, 2021* minor fixes and updates to all docs
 - *Jun 17, 2021* added webhook response examples
 - *Jun 14, 2021* added buy stock market order to API v4
 
