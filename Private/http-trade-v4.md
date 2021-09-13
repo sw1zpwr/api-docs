@@ -342,7 +342,7 @@ Error codes:
     "message": "Validation failed",
     "errors": {
         "amount": [
-            "Min amount step = 0.01"         //money/stock precision is not taken into consideration when order was submitted
+            "Min amount step = 0.01"         // money/stock precision is not taken into consideration when order was submitted
         ]
     }
 }
