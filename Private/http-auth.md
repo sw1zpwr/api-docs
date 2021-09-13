@@ -63,7 +63,7 @@ ___
 ```
 ___
 
-**"This action is unauthorized. Enable your key in API settings"** - this error occurs when you are using disabled API key. You can enable your API key in account API settings https://whitebit.com/settings/api. Note: Your API key is disabled automatically after disabling 2FA or if 
+**"This action is unauthorized. Enable your key in API settings"** - this error occurs when you are using disabled API key. You can enable your API key in account API settings https://whitebit.com/settings/api. Note: Your API key is disabled automatically after disabling 2FA. Also, the API key will be disabled if the request is received from unknown IP (if IP access restrictions are turned on).
 
 ___
 ```json5
