@@ -162,7 +162,7 @@ Available statuses:
     "orderId": 4180284841,             // order id
     "clientOrderId": "order1987111",   // custom client order id; "clientOrderId": "" - if not specified.
     "market": "BTC_USDT",              // deal market
-    "side": "buy",                     // order type
+    "side": "buy",                     // order side
     "type": "limit",                   // order type
     "timestamp": 1595792396.165973,    // current timestamp
     "dealMoney": "0",                  // if order finished - amount in money currency that is finished
@@ -403,7 +403,7 @@ Available statuses:
     "orderId": 4180284841,             // order id
     "clientOrderId": "order1987111",   // custom client order id; "clientOrderId": "" - if not specified.
     "market": "BTC_USDT",              // deal market
-    "side": "buy",                     // order type
+    "side": "buy",                     // order side
     "type": "market",                  // order type
     "timestamp": 1595792396.165973,    // current timestamp
     "dealMoney": "0",                  // amount in money currency that finished
@@ -587,7 +587,7 @@ Available statuses:
     "orderId": 4180284841,             // order id
     "clientOrderId": "order1987111",   // custom client order id; "clientOrderId": "" - if not specified.
     "market": "BTC_USDT",              // deal market
-    "side": "buy",                     // order type
+    "side": "buy",                     // order side
     "type": "stock market",            // order type
     "timestamp": 1595792396.165973,    // current timestamp
     "dealMoney": "0",                  // amount in money currency that finished
@@ -788,7 +788,7 @@ Available statuses:
     "orderId": 4180284841,             // order id
     "clientOrderId": "order1987111",   // custom client order id; "clientOrderId": "" - if not specified.
     "market": "BTC_USDT",              // deal market
-    "side": "buy",                     // order type
+    "side": "buy",                     // order side
     "type": "stop limit",              // order type
     "timestamp": 1595792396.165973,    // current timestamp
     "dealMoney": "0",                  // if order finished - amount in money currency that finished
@@ -1029,8 +1029,8 @@ Available statuses:
     "orderId": 4180284841,             // order id
     "clientOrderId": "order1987111",   // custom order identifier; "clientOrderId": "" - if not specified.
     "market": "BTC_USDT",              // deal market
-    "side": "buy",                     // order type
-    "type": "stop market",              // order type
+    "side": "buy",                     // order side
+    "type": "stop market",             // order type
     "timestamp": 1595792396.165973,    // current timestamp
     "dealMoney": "0",                  // if order finished - amount in money currency that finished
     "dealStock": "0",                  // if order finished - amount in stock currency that finished
@@ -1215,7 +1215,7 @@ Available statuses:
     "orderId": 4180284841,             // order id
     "clientOrderId": "customId11",     // custom order identifier; "clientOrderId": "" - if not specified.
     "market": "BTC_USDT",              // deal market
-    "side": "buy",                     // order type
+    "side": "buy",                     // order side
     "type": "stop market",             // order type
     "timestamp": 1595792396.165973,    // current timestamp
     "dealMoney": "0",                  // if order finished - amount in money currency that is finished
@@ -1341,7 +1341,7 @@ offset | Int | **No** | If you want the request to return entries starting from 
         "orderId": 3686033640,            // unexecuted order ID
         "clientOrderId": "customId11",    // custom order id; "clientOrderId": "" - if not specified. 
         "market": "BTC_USDT",             // currency market
-        "side": "buy",                    // type of order
+        "side": "buy",                    // order side
         "type": "limit",                  // unexecuted order type
         "timestamp": 1594605801.49815,    // current timestamp of unexecuted order
         "dealMoney": "0",                 // executed amount in money
