@@ -427,7 +427,7 @@ orderId | Int | **Yes** | Order Id. Example: 4180284841
     "orderId": 4180284841,             // order id
     "clientOrderId": "order1987111",   // custom client order id; "clientOrderId": "" - if not specified.
     "price": "9800",                   // price
-    "side": "buy",                     // order type
+    "side": "buy",                     // order side
     "takerFee": "0.001",               // maker fee ratio. If the number less than 0.0001 - its rounded to zero
     "timestamp": 1595792396.165973,    // current timestamp
     "type": "limit"                    // order type
@@ -538,7 +538,7 @@ offset | Int | **No** | If you want the request to return entries starting from 
         "orderId": 3686033640,            // unexecuted order ID
         "clientOrderId": "order1987111",  // custom client order id; "clientOrderId": "" - if not specified.
         "market": "BTC_USDT",             // currency market
-        "side": "buy",                    // type of order
+        "side": "buy",                    // order side
         "type": "limit",                  // unexecuted order type
         "timestamp": 1594605801.49815,    // current timestamp of unexecuted order
         "dealMoney": "0",                 // executed amount in money
